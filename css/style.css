@@ -1,3 +1,9 @@
+body,
+input,
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
 html{
     min-height: 100%;
 }
