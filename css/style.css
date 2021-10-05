@@ -16,30 +16,80 @@ html{
 .nav-wrapper ul li:hover{
     background-color:blueviolet;
 }
+
+.color-text{
+    color:blueviolet;
+}
+
 h1{
+    font-size: 50px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
     line-height: 100%;
-    /* or 64px */
-
     display: flex;
     align-items: center;
-
     color: #000000;
+    padding-bottom: 0px;
+    margin-top: 16px;
+    
 }
 
 h4{
-
+    font-size: 24px;
     height: 72px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 550;
-    font-size: 24px;
     line-height: 36px;
+    padding-top: 0;
 
-
-    color: #fafafa;
-
+    color: #000000;
 }
+  @media (min-width: 1366px) {
+    .section1{
+        background-position: bottom; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%; 
+    }
+    .conteudo1{
+       display: flex; 
+       align-items:center; 
+       padding-left: 16px; 
+       padding-bottom: 0; 
+       padding-top: 0;
+    }
+
+  }
+
+  @media (min-width: 1920px) {
+    .section1{
+        background-position: bottom; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 924px;
+        width: 100%; 
+    }
+    .conteudo1{
+       display: flex; 
+       align-items:center; 
+       padding-left: 16px; 
+       padding-bottom: 0; 
+       padding-top: 100px;
+    }
+    h1{
+        font-size: 66px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-bottom: 0px;
+        margin-top: 16px;
+    }
+
+  }
