@@ -1,0 +1,39 @@
+html{
+    min-height: 100%;
+}
+
+.header{
+    background-color: black;
+    height: 90px;
+}
+
+.nav-wrapper ul li:hover{
+    background-color:blueviolet;
+}
+h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    /* or 64px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+h4{
+
+    height: 72px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 36px;
+
+
+    color: #fafafa;
+
+}
