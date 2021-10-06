@@ -1,17 +1,10 @@
-const linkInternos = document.querySelectorAll('.js-menu li a[href^="#"]');
-console.log(linkInternos);
-function scrollToSection(event){
-    event.preventDefault();
-    const href = event.currentTarget.getAttribute('href');
-    const section = document.querySelector(href);
-  
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, options);
+  });
 
-    section.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-    });
-}
+  // Or with jQuery
 
-linkInternos.forEach((link) => {
-    link.addEventListener('click', scrollToSection);
-});
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
