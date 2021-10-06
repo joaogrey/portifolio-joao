@@ -19,6 +19,23 @@ body{
 .nav-wrapper ul li:hover{
     background-color:blueviolet;
 }
+.img:hover{
+    border-radius: 100%;
+    transform: scale(1.5); 
+    box-shadow: 0 2px 8px rgb(113,8,185);
+}
+
+.img1:hover{
+    border-radius: 100%;
+    transform: scale(1.5); 
+    box-shadow: 0 2px 8px rgb(113,8,185);
+}
+
+.img2:hover{
+    border-radius: 100%;
+    transform: scale(1.5); 
+    box-shadow: 0 2px 8px rgb(19,198,191);
+}
 
 .color-text{
     color:blueviolet;
@@ -68,6 +85,23 @@ h4{
     body{
         padding-top: 90px;
     }
+
+    .section2{
+        background-position: bottom; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%; 
+    }
+    .section3{
+        background-position: center; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 1000px;
+        width: 100%; 
+    }
+
+
   }
 
   @media (min-width: 1366px) {
