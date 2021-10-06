@@ -14,15 +14,16 @@
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/materialize.js"></script>
   <script src="./js/materialize.min.js"></script>
+  <!-- <script src="./js/script.js" defer></script> -->
 </head>
 
 <header>
-        <nav>
+        <nav class="js-menu" style="position: fixed; top:0; z-index: 999;">
             <div class="nav-wrapper" style="background-color: #000000;">
                  <a href="#" class="brand-logo" style="display: flex; align-items: center;"><img class="responsive-" src="./images/download__1_-removebg-preview 1 (1).svg" style="height: 60px;  padding-left: 16px;"><i style="font-size: 14px; padding-inline: 8px;">Olá, sou João de Oliveira</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#home">Tela Inicial</a></li>
-                    <li><a href="#">Quem sou</a></li>
+                    <li><a href="#me">Quem sou</a></li>
                     <li><a href="#">Ferramentas</a></li>
                     <li><a href="#">Habilidades</a></li>
                     <li><a href="#">Projetos</a></li>
@@ -35,7 +36,7 @@
 <body>
     <section id="home" class="section1" style="background-image:url('./images/Vector.svg'); height: 90vh;">
         <div class="conteudo1" style="display: flex; align-items: flex-start; padding-right: 0px; justify-content: space-between; height: 50%; ">
-            <div style="padding: 0 0;flex-direction: column; display:flex;">
+            <div style="padding: 0 0;flex-direction: column; display:flex; padding-top: 32px;">
                 <h1 style="width: 100%; padding-top: 0px; padding-left: 16px; margin-bottom: 0;">
                     Criando Produtos digitais,<br>
                     com técnicas de design para<br>
@@ -55,37 +56,60 @@
 
     </section>
 
-    <section id="home" class="section1" style="background-image:url('./images/Vector.svg'); height: 90vh;">
-        <div class="conteudo1" style="display: flex; align-items: flex-start; padding-right: 0px; justify-content: space-between; height: 50%; ">
-            <div style="padding: 0 0;flex-direction: column; display:flex;">
-                <h1 style="width: 100%; padding-top: 0px; padding-left: 16px; margin-bottom: 0;">
-                    Criando Produtos digitais,<br>
-                    com técnicas de design para<br>
-                </h1>
-                <h1 style="padding-left: 16px;color: #7108B9; margin: 0; padding-top: 0;">melhor experiência do usuário</h1>
-                <h4 style="width: 550px; padding-left: 16px;">
-                    Atuo como UX | UI Designer com foco em 
-                    Design System e Product Designer
-                </h4>            
-            </div>
-            <img class="responsive-img" src="./images/efeito blur - bolinhas.svg" style="width: 376; margin-right: 0;">
-        </div>
+    <section id="me" class="section2" style="background-color: #212121;height: 800px; width: 100%;  ">
+        <div class="conteudo3" style="display: flex; align-items: center; padding:32px 32px; justify-content: center; height: 80%; ">
+            <div style="flex-direction: column; display:flex;  height: 80%; margin-bottom: 0; padding-bottom: 0;">
 
-        <div class="conteudo2">
-            <img class="responsive-img" src="./images/amico.svg" style="width: 20%; position: absolute; right: 25%;">
+                 <h1 style="width: 350px ; padding-top: 0px; padding-left: 0px;  color: #13C6BF; border-bottom: 4px;border-bottom-width: 8px; border-bottom-color: #7108B9; border-bottom-style:solid;">Quem sou</h1> 
+
+                <h4 style="width: 100%; height:100%;  margin-bottom: 0; padding:32px 32px; color: #fafafa;font-size: 20px;  border-width: medium; border-color: #FFA8A7; border-radius: 16px; border-style: solid; align-items: center; justify-content: center;"  >
+                    Meu nome é João, tenho 26 anos, sou uberaba-MG.<br> 
+                    Sou formado em engenharia de computação e possuindo<br> 
+                    experiência na área de criação de produtos digitais.<br><br>
+
+                    Atualmente sou UX | UI Designer na empresa Ceres Investimentos,<br>
+                    tendo como foque a criação de design system e product design.<br><br>
+
+                    Possuo um breve conhecimento de programação front e back end<br>
+                    facilitando no handoff dos projetos aos desenvolvedores.<br>
+                </h4>  
+                <img class="responsive" src="./images/efeito Figma 2.png" style="width: 200px; height: 80px; padding-top: 0;">          
+            </div>
+            <div style="flex-direction: column; display:flex;  height: 80%; padding-left: 70px; padding-top: 16px;">           
+                <img class="responsive" src="./images/efeito Figma 1.png" style="width: 200px; height: 80px;">
+                <img class="responsive-img" src="./images/joao_foto.png" style=" padding: 16px;">
+            </div>
+
         </div>
 
     </section>
 
 </body>
 
-<footer class="col s12 "style="width: 100%;">
-    <div class="page-footer" style="padding-top: 0; background-color: #212121;" >
-      <div class="container" style="padding: 8px; display: flex; justify-content: center;width: 100%;">
-        © GRUPO CERES 2021. Todos os direitos reservados.
+<footer class="page-footer" style="background-color: #212121;">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
       </div>
-  
     </div>
-</footer>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
   
   </html>
