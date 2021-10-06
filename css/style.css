@@ -49,6 +49,27 @@ h4{
 
     color: #000000;
 }
+
+@media screen and (min-width: 900px) {
+    .section1{
+        background-position: bottom; 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%; 
+    }
+    .conteudo1{
+       display: flex; 
+       align-items:center; 
+       padding-left: 16px; 
+       padding-bottom: 0; 
+       padding-top: 0;
+    }
+    body{
+        padding-top: 90px;
+    }
+  }
+
   @media (min-width: 1366px) {
     .section1{
         background-position: bottom; 
