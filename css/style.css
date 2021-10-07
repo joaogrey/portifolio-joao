@@ -9,7 +9,7 @@ html{
     min-height: 100%;
 }
 body{
-    
+    background-color: #fafafa;
     padding-top: 90px;
 }
 .header{
@@ -22,7 +22,7 @@ body{
 }
 .img:hover{
     transform: scale(1.2); 
-    box-shadow: 0 2px 8px rgb(113,8,185);
+   
 }
 
 .img{
@@ -66,24 +66,18 @@ h1{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    line-height: 100%;
     display: flex;
     align-items: center;
     color: #000000;
-    padding-bottom: 0px;
     margin-top: 16px;
     
 }
 
 h4{
     font-size: 24px;
-    height: 72px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 550;
-    line-height: 36px;
-
-
+    font-weight: 400;
     color: #000000;
 }
 
@@ -108,81 +102,21 @@ h4{
 
     .section2{
         background-position: bottom; 
-        background-size: 100%;
         background-repeat: no-repeat;
-        height: 800px;
-        width: 100%; 
+        background-size: cover;
+        height: 100vh;
     }
     .section3{
         background-position: top; 
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
     }
     .section4{
         background-position: top; 
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
     }
 
-  }
-
-  @media (min-width: 1366px) {
-    .section1{
-        background-position: bottom; 
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 600px;
-        width: 100%; 
-    }
-    .conteudo1{
-       display: flex; 
-       align-items:center; 
-       padding-left: 16px; 
-       padding-bottom: 0; 
-       padding-top: 0;
-    }
-
-  }
-
-  @media (min-width: 1920px) {
-    .section1{
-        background-position: bottom; 
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 800px;
-        width: 100%; 
-    }
-    .conteudo1{
-       display: flex; 
-       align-items:center; 
-       padding-left: 16px; 
-       padding-bottom: 0;
-       padding-top: 16px;
-    }
-    .conteudo2{
-        display: flex; 
-        align-items:center; 
-        padding-left: 16px; 
-        padding-bottom: 0;
-        padding-top: 230px;
-     }
-     h1{
-        font-size: 66px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600px;
-        line-height: 100%;
-        display: flex;
-        align-items: center;
-        color: #000000;
-        padding-bottom: 0px;
-        margin-top: 16px;
-    }
-
-  }
-
-  html,
-  body {
-    position: relative;
-    height: 100%;
   }
