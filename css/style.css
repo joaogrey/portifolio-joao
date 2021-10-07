@@ -82,7 +82,7 @@ h4{
     color: #000000;
 }
 
-@media screen and (min-width: 900px) {
+
     .section1{
         background-position: bottom; 
         background-size: 100%;
@@ -120,4 +120,4 @@ h4{
         height: 100vh;
     }
 
-  }
+
