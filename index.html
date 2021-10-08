@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/materialize.css">
     <link rel="stylesheet" href="./css/materialize.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/materialize.js"></script>
     <script src="./js/materialize.min.js"></script>
     <script src="./js/script.js" defer></script>
@@ -90,7 +92,7 @@
 
                 <div style="flex-direction: column; display:flex;  height: 80%; padding-left: 70px; padding-top: 16px;">
                     <img class="responsive-img img" src="./images/efeito Figma 1.svg"">
-                    <img class="responsive-img img" src="./images/joao_foto.png" style=" padding: 16px;">
+                    <img class=" responsive-img img" src="./images/joao_foto.png" style=" padding: 16px;">
                 </div>
 
             </div>
@@ -167,29 +169,153 @@
             </div>
         </div>
     </section>
+
+
+
+    <section id="project" class="section5"
+        style="background-color: #fafafa; display: flex; justify-items: center; align-items: center; justify-content: center; ">
+        <div class="row"
+            style="align-items: center;justify-content: center; align-content: center; height: 100%; width: 100%" ;>
+            <div class="col s12"
+                style="display: flex; align-items: center; padding-top: 60px; justify-content: center; height: 100%; ">
+                <div style="flex-direction: column; display:flex;  height: 100%; align-items: center; width: 80%; margin: 0;">
+                    <h1
+                        style="color: #13C6BF; border-bottom-width: 8px; border-bottom-color: #7108B9; border-bottom-style:solid; size: 30px;margin: 0px;">
+                        Projetos</h1>
+                    <div class="col s12"
+                        style=" display: flex; align-items: center; justify-items: center;justify-content: center; width: 100%; height: 80%;padding: 32px 32px;">
+
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff;align-items: center; justify-items: center;justify-content: center; width: 80%; height: 80%;padding: 32px 32px;"
+                            class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"
+                                    style="background-color: #13C6BF; background-repeat: no-repeat; background-position: bottom; border-radius: 16px;">
+                                    <div class="title" data-swiper-parallax="-300"
+                                        style="color: #7108B9; font-weight: bold;">CLF</div>
+                                    <div class="text" data-swiper-parallax="-100">
+                                        <p
+                                            style="width: 100%; color: #fafafa; font-weight: normal; font-style: normal; font-family: 'poppins';">
+                                            É uma plataforma web e mobile para gestão de tarefas que serão executadas no
+                                            confinamento,
+                                            como uma forma de controle das atividades desempenhadas dentro do
+                                            confinamento.
+                                            O MVP, projetado e prototipado em menos de uma semana, tem como objetivo
+                                            acompanhar todas a
+                                            tarefas executadas por profissionais que vão trabalhar na área interna do
+                                            confinamento.
+                                        </p>
+                                    </div>
+                                    <container style="display: flex; align-items: center; justify-content: center; justify-items: center;">
+                                        <img class="responsive-img" src="./images/Home.svg" style="width:40%; height: 40%;">
+                                    </container>
+                                </div>
+                                <div class="swiper-slide" style="background-image: url('/images/Tela\ Tech\ Sign.svg'); background-size: 65%; background-repeat: no-repeat; background-position: bottom; border-radius: 16px;">
+                                    <div class="title" data-swiper-parallax="-300">Tech Sign</div>
+                                    <div class="text" data-swiper-parallax="-100">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                            dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                                            laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                                            Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                                            Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                                            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                                            tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="background-image: url('/images/Tela\ CRM.svg'); background-size: 65%; background-repeat: no-repeat; background-position: bottom; border-radius: 16px;">
+                                    <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                                    <div class="text" data-swiper-parallax="-100">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                            dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+                                            laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+                                            Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
+                                            Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
+                                            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                                            tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+
+
+
+
+
+
+
+                        <!-- <div class="carousel" style="height:80%">
+                            <div class="carousel-item black white-text" href="#one!" style="align-items: center; justify-content: center; flex-direction: column; display:flex; border-radius: 32px;">
+                                <h2>CLF</h2>
+                                <img class="responsive-img " src="./images/Home.svg" style="width:40%; height: 40%;">
+                                <p class="white-text" style="font-family: 'Poppins', sans-serif; font-size: 16px; padding: 32px 32px;">É uma plataforma web e mobile para gestão de tarefas que serão executadas no confinamento, como uma forma de controle das atividades desempenhadas dentro do confinamento. O MVP, projetado e prototipado em menos de uma semana, tem como objetivo acompanhar todas a tarefas executadas por profissionais que vão trabalhar na área interna do confinamento.</p>
+                            </div>
+                            <div class="carousel-item black white-text" href="#two!" style="align-items: center; justify-content: center; flex-direction: column; display:flex; border-radius: 32px; background-color: #212121;">
+                                <h2>Tech Sign</h2>
+                                <img class="responsive-img " src="./images/tech sign tela.svg" style="width:40%; height: 40%;">
+                                <p class="white-text" style="font-family: 'Poppins', sans-serif; font-size: 16px; padding: 32px 32px;">Solicitado o design e o desenvolvimento de uma plataforma web para assinatura de documentos online, 
+                                tem como objetivo acompanhar todo o processo de assinaturas de um documento, sendo possível, 
+                                verificação de status de e-mails enviados, criação de templates e gerenciamento de documentos.</p>
+                            </div>
+                            <div class="carousel-item black white-text" href="#three!"style="align-items: center; justify-content: center; flex-direction: column; display:flex;border-radius: 32px; background-color: #212121; ">
+                                <h2>Third Panel</h2>
+                                <img class="responsive-img " src="./images/Tela Tech Sign.svg" style="width:60%; height: 60%;">
+                                <p class="white-text"style="font-family: 'Poppins', sans-serif; font-size: 16px; padding: 32px 32px;">This is your third panel</p>
+                            </div>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
 </body>
 
 <footer id="footer" class="page-footer" style="background-color: #212121;">
     <div class="container">
         <div class="row" ">
-            <div class="col l6 s12">
-                <h5 class="white-text" style="font-weight: 8px; border-bottom-color: #F6BF87; border-bottom-style:solid; width: fit-content;">Agradecimento</h5>
-                <p class="grey-text text-lighten-4">Espero que possa ter tido uma experiência prazerosa! Fique a vontade para me chamar nas redes sociais.
-                </p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text" style="font-weight: 8px; border-bottom-color: #F6BF87; border-bottom-style:solid; width: fit-content;">Redes Sociais</h5>
-                <ul>
-                    <li><a class="col s2" href="https://www.linkedin.com/in/joaojunior14/"><img class="responsive-img img" src="./images/linkedin.png" style="width:32px;"></a></li>
-                    <li><a class="col s2" href="https://www.figma.com/file/pqrvFSImdrk1ORfFkRVUgL/Portifólio?node-id=23:342"><img class="responsive-img img " src="./images/figma.svg" style="width:32px;"></a></li>
-                    <li><a class="col s2" href="#instagram"><img class="responsive-img img" src="./images/instagram.png" style="width:32px;"></a></li>
-                    <li><a class="col s2" href="https://github.com/joaogrey"><img class="responsive-img img " src="./images/github.png" style="width:32px; background-color: #fafafa; border-radius: 100%;"></a></li>
-                    <li><a class="col s2" href="mailto:email_que_recebe_as_oliveirajoaojr@gmail.com?Subject=Título%20da%20mensagem"><img class="responsive-img img" src="./images/gmail.png" style="width:32px;"></a></li>
-                </ul>
-            </div>
+            <div class=" col l6 s12">
+            <h5 class="white-text"
+                style="font-weight: 8px; border-bottom-color: #F6BF87; border-bottom-style:solid; width: fit-content;">
+                Agradecimento</h5>
+            <p class="grey-text text-lighten-4">Espero que possa ter tido uma experiência prazerosa! Fique a vontade
+                para me chamar nas redes sociais.
+            </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+            <h5 class="white-text"
+                style="font-weight: 8px; border-bottom-color: #F6BF87; border-bottom-style:solid; width: fit-content;">
+                Redes Sociais</h5>
+            <ul>
+                <li><a class="col s2" href="https://www.linkedin.com/in/joaojunior14/"><img class="responsive-img img"
+                            src="./images/linkedin.png" style="width:32px;"></a></li>
+                <li><a class="col s2"
+                        href="https://www.figma.com/file/pqrvFSImdrk1ORfFkRVUgL/Portifólio?node-id=23:342"><img
+                            class="responsive-img img " src="./images/figma.svg" style="width:32px;"></a></li>
+                <li><a class="col s2" href="#instagram"><img class="responsive-img img" src="./images/instagram.png"
+                            style="width:32px;"></a></li>
+                <li><a class="col s2" href="https://github.com/joaogrey"><img class="responsive-img img "
+                            src="./images/github.png"
+                            style="width:32px; background-color: #fafafa; border-radius: 100%;"></a></li>
+                <li><a class="col s2"
+                        href="mailto:email_que_recebe_as_oliveirajoaojr@gmail.com?Subject=Título%20da%20mensagem"><img
+                            class="responsive-img img" src="./images/gmail.png" style="width:32px;"></a></li>
+            </ul>
         </div>
     </div>
-    <div class="footer-copyright" style="position: relative;"  >
+    </div>
+    <div class="footer-copyright" style="position: relative;">
         <div class="container">
             © 2021 Created by: me
         </div>
