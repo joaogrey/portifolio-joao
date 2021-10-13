@@ -2,177 +2,179 @@ body,
 input,
 footer,
 button {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-    min-height: 100%;
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
 }
-body{
-    background-color: #fafafa;
-    padding-top: 90px;
+body {
+  background-color: #fafafa;
+  padding-top: 90px;
 }
-.header{
-    background-color: black;
-    height: 90px;
-}
-
-.nav-wrapper ul li:hover{
-    background-color:blueviolet;
-}
-.img:hover{
-    transform: scale(1.2); 
-   
+.header {
+  background-color: black;
+  height: 90px;
 }
 
-.img{
-    transition: 0.5s ease all;
-    display: block;
+.nav-wrapper ul li:hover {
+  background-color: blueviolet;
+}
+.img:hover {
+  transform: scale(1.2);
 }
 
-.img1:hover{
-    border-radius: 100%;
-    transform: scale(1.2); 
-    box-shadow: 0 2px 8px rgb(113,8,185);
-}
-.img1{
-    transition: 0.4s ease all;
+.img {
+  transition: 0.5s ease all;
+  display: block;
 }
 
-.img2:hover{
-    border-radius: 100%;
-    transform: scale(1.2); 
-    box-shadow: 0 2px 8px rgb(19,198,191);
+.img1:hover {
+  border-radius: 100%;
+  transform: scale(1.2);
+  box-shadow: 0 2px 8px rgb(113, 8, 185);
+}
+.img1 {
+  transition: 0.4s ease all;
 }
 
-.img2{
-    transition: 0.4s ease all;
+.img2:hover {
+  border-radius: 100%;
+  transform: scale(1.2);
+  box-shadow: 0 2px 8px rgb(19, 198, 191);
 }
 
+.img2 {
+  transition: 0.4s ease all;
+}
 
 @-webkit-keyframes slide {
-    100% { left: 0; }
+  100% {
+    left: 0;
+  }
 }
 
 @keyframes slide {
-    100% { left: 0; }
+  100% {
+    left: 0;
+  }
 }
 
-.color-text{
-    color:blueviolet;
+.color-text {
+  color: blueviolet;
 }
 
-h1{
-    font-size: 50px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    margin-top: 16px;
-    
+h1 {
+  font-size: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 16px;
 }
 
-h4{
-    font-size: 24px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
+h4 {
+  font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+}
+
+.section1 {
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+.conteudo1 {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+body {
+  padding-top: 90px;
+}
+
+.section2 {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.section3 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.section4 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.section5 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* set to flexbox to center the images with the indicator icons */
+.carousel-item {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 16px;
+  max-width: 80vw;
+  line-height: 1.3;
 }
 
 
-    .section1{
-        background-position: bottom; 
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 800px;
-        width: 100%; 
-    }
-    .conteudo1{
-       display: flex; 
-       align-items:center; 
-       padding-left: 16px; 
-       padding-bottom: 0; 
-       padding-top: 0;
-    }
-    body{
-        padding-top: 90px;
-    }
-
-    .section2{
-        background-position: bottom; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-    .section3{
-        background-position: top; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-    .section4{
-        background-position: top; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-    .section5{
-        background-position: top; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-    }
-      
-      /* set to flexbox to center the images with the indicator icons */
-      .carousel-item {
-        display: flex;
-        align-items: start;
-        justify-content: center;
-      }
-      
-
-
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-        background: #000;
-      }
-
-      .swiper-slide {
-        font-size: 18px;
-        color: #fff;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding: 40px 60px;
-      }
-
-      .parallax-bg {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center;
-      }
-
-      .swiper-slide .title {
-        font-size: 41px;
-        font-weight: 300;
-      }
-
-      .swiper-slide .subtitle {
-        font-size: 21px;
-      }
-
-      .swiper-slide .text {
-        font-size: 16px;
-        max-width: 80vw;
-        line-height: 1.3;
-      }
+#hello {
+    font-size: 7.6vw;
+  }
